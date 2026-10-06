@@ -1,6 +1,7 @@
 # 调研标准作业流程（research-workflow）
 
-> 把"查资料"变成可复现、可溯源的工程。配合 `channel-selection.md`（选通道）与 `source-schema.md`（结构化与溯源）使用。
+> 把"查资料"变成可复现、可溯源的工程。配合 `channel-selection.md`（选通道）、`channels-detail.md`（逐通道用法）与 `source-schema.md`（结构化与溯源）使用。
+> **调研类型路由**（15 类 × 层级/渠道/流程/交付）见 `research-router.md`；**多源群策群力（L3 深度决策）**见 `multi-agent-consultation.md`。
 
 ## 目录
 1. 七步 SOP 详解
@@ -92,4 +93,4 @@
 
 - 数据集默认存本地项目目录（CSV/JSON + 来源列），命名含日期与范围；过程临时文件及时清理。
 - 需要团队复用/长期沉淀时，按项目 AGENTS 规则询问是否归档飞书知识库，并在归档文档中保留采集口径与来源。
-- 一次调研结束沉淀"踩坑/站点可抓性"到 `channel-selection.md` 第 5 节，形成集体记忆。
+- 一次调研结束沉淀"踩坑/站点可抓性"到 `field-test-notes.md`（实测台账）或 `channel-selection.md` 网络分流表，形成集体记忆。

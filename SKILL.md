@@ -31,12 +31,13 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 | 要做什么 | 用什么 | 读哪篇 |
 | --- | --- | --- |
-| 不知信息在哪、探索性问题、少量事实、要最新动态 | 内置联网搜索（一次并行 ≤3 query） | `channel-selection.md` §3.1 |
-| 学术/金融/医疗/企业内部垂直检索 | 对应垂直检索技能；中国大陆法规走 pkulaw-legal-data | `channel-selection.md` §3.2 |
-| 已知 URL 要全文、在线 PDF、大陆 gov.cn 政府站 | web.fetch（分页读完，不受本机代理影响） | `channel-selection.md` §3.3 |
+| 通道总览、决策树选型、网络分流 | —（先选通道再动手） | `channel-selection.md` |
+| 不知信息在哪、探索性问题、少量事实、要最新动态 | 内置联网搜索（一次并行 ≤3 query） | `channels-detail.md` §3.1 |
+| 学术/金融/医疗/企业内部垂直检索 | 对应垂直检索技能；中国大陆法规走 pkulaw-legal-data | `channels-detail.md` §3.2 |
+| 已知 URL 要全文、在线 PDF、大陆 gov.cn 政府站 | web.fetch（分页读完，不受本机代理影响） | `channels-detail.md` §3.3 |
 | 整站批量、JS 动态页、固定字段 JSON、变更监控 | Firecrawl（脚本 `scripts/fc_scrape.py`，按 credit 计费） | `firecrawl-guide.md` |
-| 英文/海外资料、语义"找相似"、Reddit 讨论线索 | Exa 语义搜索（`scripts/exa_search.py`，免 key、直连） | `channel-selection.md` §3.6 |
-| 海外已知页 web.fetch/Firecrawl 都读不下 | Jina Reader（`scripts/jina_read.py`，走代理） | `channel-selection.md` §3.7 |
+| 英文/海外资料、语义"找相似"、Reddit 讨论线索 | Exa 语义搜索（`scripts/exa_search.py`，免 key、直连） | `channels-detail.md` §3.6 |
+| 海外已知页 web.fetch/Firecrawl 都读不下 | Jina Reader（`scripts/jina_read.py`，走代理） | `channels-detail.md` §3.7 |
 | 生财有术站内私有资料（精华帖/项目库/航海手册/圈友/足迹） | scys-mcp 连接器（需会员+OAuth，默认只读） | `scys-mcp-guide.md` |
 | 政策/红头文件权威库与五级分层找法 | policy-source-map | `policy-source-map.md` |
 
