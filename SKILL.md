@@ -25,7 +25,7 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 界定问题与交付物 → 拆子问题列信源清单（优先一手/官方源）→ 按下表选通道采集 → 关键事实≥2 个独立来源交叉核验、冲突保留两说 → 结构化入库（每条必带 `sourceUrl+fetchedAt+信源等级`）→ 只基于已核验证据下结论、不足标"待核实" → 交付逐条附源、需要沉淀时按项目 AGENTS 规则询问是否归档。
 
-> 完整 SOP、反幻觉清单、房地产评估专项清单见 `references/research-workflow.md`；信源分级与结构化模板见 `references/source-schema.md`；**调研类型路由总表（所有调研诉求的唯一入口）见 `references/research-router.md`**；**策略选择与组合用法（S1-S10 组件/四种决策模式/升级回退/群策元决策）见 `references/strategy-selection.md`**；**多源群策群力（L3 深度决策）见 `references/multi-agent-consultation.md`**；**完整渠道目录（九大类 90+ 渠道：搜索引擎/国内外对话助手/AI搜索引擎/学术/垂直数据源/国外主流社交 13 平台+国内主流社交 15 平台/自定义）见 `references/channel-directory.md`**；**行业特定词库与查询包见 `references/industry-packs.md`（已含珠宝营销×AI 包）**。
+> 完整 SOP、反幻觉清单、房地产评估专项清单见 `references/research-workflow.md`；信源分级与结构化模板见 `references/source-schema.md`；**调研类型路由总表（所有调研诉求的唯一入口）见 `references/research-router.md`**；**策略选择与组合用法（S1-S10 组件/四种决策模式/升级回退/群策元决策）见 `references/strategy-selection.md`**；**多源群策群力（L3 深度决策）见 `references/multi-agent-consultation.md`**；**完整渠道目录（九大类 90+ 渠道：搜索引擎/国内外对话助手/AI搜索引擎/学术/垂直数据源/国外主流社交 13 平台+国内主流社交 15 平台+国家×行业选型矩阵/自定义）见 `references/channel-directory.md`**；**行业特定词库与查询包见 `references/industry-packs.md`（已含珠宝营销×AI 包）**。
 
 ## 取数通道路由（先选通道再动手）
 
