@@ -25,7 +25,7 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 界定问题与交付物 → 拆子问题列信源清单（优先一手/官方源）→ 按下表选通道采集 → 关键事实≥2 个独立来源交叉核验、冲突保留两说 → 结构化入库（每条必带 `sourceUrl+fetchedAt+信源等级`）→ 只基于已核验证据下结论、不足标"待核实" → 交付逐条附源、需要沉淀时按项目 AGENTS 规则询问是否归档。
 
-> 完整 SOP、反幻觉清单、房地产评估专项清单见 `references/research-workflow.md`；信源分级与结构化模板见 `references/source-schema.md`；**调研类型路由总表（所有调研诉求的唯一入口）见 `references/research-router.md`**；**多源群策群力（L3 深度决策）见 `references/multi-agent-consultation.md`**；**完整渠道目录（九大类 80+ 渠道：搜索引擎/国内外对话助手/AI搜索引擎/学术/垂直数据源/社交社区/自定义）见 `references/channel-directory.md`**；**行业特定词库与查询包见 `references/industry-packs.md`（已含珠宝营销×AI 包）**。
+> 完整 SOP、反幻觉清单、房地产评估专项清单见 `references/research-workflow.md`；信源分级与结构化模板见 `references/source-schema.md`；**调研类型路由总表（所有调研诉求的唯一入口）见 `references/research-router.md`**；**策略选择与组合用法（S1-S10 组件/四种决策模式/升级回退/群策元决策）见 `references/strategy-selection.md`**；**多源群策群力（L3 深度决策）见 `references/multi-agent-consultation.md`**；**完整渠道目录（九大类 80+ 渠道：搜索引擎/国内外对话助手/AI搜索引擎/学术/垂直数据源/社交社区/自定义）见 `references/channel-directory.md`**；**行业特定词库与查询包见 `references/industry-packs.md`（已含珠宝营销×AI 包）**。
 
 ## 取数通道路由（先选通道再动手）
 
@@ -55,7 +55,7 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 ## 能力与扩展位（迭代登记处）
 
-**已就位**：内置联网搜索 + 垂直检索路由；web.fetch 精读（含大陆 gov.cn 兜底）；Firecrawl 单页（Markdown/JSON，keyless 实测可用）；Exa 英文语义搜索、Jina 海外网页兜底、gh/RSS/V2EX 均已实测；国内外网络分流；生财有术 scys-mcp 搜读+AI 亦仁全管线（详见 `scys-mcp-guide.md`）；**多源群策群力机制（L3 深度决策，5 家 AI 实测，含渠道矩阵/差异化模板/浏览器执行要点/更新机制）**；**完整渠道目录（七大类 60+ 渠道，2026-10 多源验证）**；**行业包机制（已含珠宝营销×AI 包 v1：中英词库+15 条查询模板+渠道补充）**。
+**已就位**：内置联网搜索 + 垂直检索路由；web.fetch 精读（含大陆 gov.cn 兜底）；Firecrawl 单页（Markdown/JSON，keyless 实测可用）；Exa 英文语义搜索、Jina 海外网页兜底、gh/RSS/V2EX 均已实测；国内外网络分流；生财有术 scys-mcp 搜读+AI 亦仁全管线（详见 `scys-mcp-guide.md`）；**多源群策群力机制（L3 深度决策，5 家 AI 实测，含渠道矩阵/差异化模板/浏览器执行要点/更新机制）**；**完整渠道目录（九大类 80+ 渠道，2026-10 多源验证）**；**策略选择层（四种决策模式 + S1-S10 可组合策略组件 + 群策元决策）**；**行业包机制（已含珠宝营销×AI 包 v1：中英词库+15 条查询模板+渠道补充）**。
 
 **扩展位**（具备条件后启用，先在 `field-test-notes.md` 登记实测再使用）：Firecrawl key（Crawl/Map/批量 Extract/Monitor、MCP 接入）；中国土地市场网/公共资源交易中心/挂牌平台适配器；定时采集+快照 diff；社交 UGC 平台（小红书/Twitter/Reddit 读帖/公众号，启用前置与封号风险见 `field-test-notes.md` §待接入）；**行业包扩容（珠宝包向 300 中+300 英关键词+50 组模板远期目标迭代，其他行业按需建包）**。
 
