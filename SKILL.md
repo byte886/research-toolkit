@@ -6,6 +6,8 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 # 网络调研工具箱（web-research-toolkit）
 
+> 本技能是"鉴藏（heritage）体系"的调研方法论层（怎么查）。体系运行机制/路由见采集底座 `~/Desktop/multiplatform-content-pipeline/docs/SYSTEM_ARCHITECTURE.md`；业务方向/选题见运营仓 `~/Desktop/self-media-ops/docs/SYSTEM_STRATEGY.md`；行业包归属鉴藏子域（jewelry-ai→heritage/01_jewelry、jadeite→heritage/02_jadeite、ceramics→heritage/03_antiques）。
+
 ## 平台适用
 - 本技能方法论与脚本**跨平台**：scripts 只用 Python 标准库（urllib/json/socket/subprocess 等）与云端取数 API（Jina/Exa/Firecrawl），不调用任何操作系统专有能力。
 - 已在 macOS 实测；其余平台未专门实测，遇路径、编码、本机代理端口差异就地适配，**不按操作系统拦截停跑**。
