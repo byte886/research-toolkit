@@ -15,16 +15,20 @@
 
 ## 二、渠道矩阵（P0-P4，覆盖国内外主流）
 
-| 阶段 | 优先级 | 渠道 | 类型 | 使用时机 | 付费建议 |
+| 阶段 | 优先级 | 渠道（代表） | 类型 | 使用时机 | 付费建议 |
 |---|---|---|---|---|---|
-| 快速摸底 | P0 | Google / Bing / 百度 | 搜索引擎 | 永远先做 | 免费优先 |
-| 通用推理 | P1 | Grok / Claude / ChatGPT / Gemini | 通用大模型 | 同步或紧接搜索后 | 有付费就用最新模型 |
-| 中文/垂直 | P2 | DeepSeek / 豆包 / 元宝 | 中文优化模型 | 中文语境/国内政策/本地化时 | 免费优先 |
-| 专业数据 | P3 | Perplexity / Consensus / Elicit / You.com | 带引用学术引擎 | 需要证据链/论文/数据时 | 有付费用付费 |
-| 补充 | P4 | 自定义调研技能（本工具链）/ 垂直渠道 / 小众工具 | 自建或垂直 | 前序结果不足时 | 按需 |
+| 快速摸底 | P0 | Google / Bing / 百度（+搜狗/夸克/DuckDuckGo/Startpage/Brave/Yandex/Kagi） | 传统搜索引擎 | 永远先做 | 免费优先 |
+| 通用推理 | P1 | Grok / Claude / ChatGPT / Gemini（+Perplexity/Copilot/Meta AI/Mistral/Poe/You.com/Cici） | 国外通用大模型 | 同步或紧接搜索后 | 有付费就用最新模型 |
+| 中文/垂直 | P2 | DeepSeek / 豆包 / 元宝（+文心/通义/智谱/Kimi/讯飞/海螺/天工/阶跃/百川/零一/360/澜舟） | 中文优化模型 | 中文语境/国内政策/本地化时 | 免费优先 |
+| 专业数据 | P3 | Perplexity / Consensus / Elicit / You.com（+ChatGPT Search/Gemini AI Mode/秘塔/天工AI搜索/纳米/Kimi Search/Phind/NotebookLM/Google AI Overviews） | 带引用 AI 搜索/学术引擎 | 需要证据链/论文/数据时 | 有付费用付费 |
+| 补充 | P4 | 自定义技能（本工具链）/ 垂直领域引擎 / 小众工具 | 自建或垂直 | 前序结果不足时 | 按需 |
+
+> **完整清单**（每类全部渠道 + 厂商/免费付费/API/网页/登录/需代理/停服坑）见 **`channel-directory.md`**（2026-10 版，多源验证）。矩阵只放代表渠道与组合策略。
+
+**选择策略（怎么按问题选渠道，详见 channel-directory.md §八）**：中文语境→国内组+百度/秘塔；要引用→Perplexity/ChatGPT Search/Consensus；实时社媒→Grok/站内；长文档→Kimi/Claude/NotebookLM；学术→Scholar/arXiv/Patents；开发排错→Phind/ChatGPT/Claude/GitHub；免费优先→豆包/DeepSeek/Kimi/秘塔/天工。
 
 **默认启动组合**（L3）：Google（或 Bing）＋ Grok + Claude（或 ChatGPT）＋ DeepSeek 或豆包（中文场景）＋ Perplexity / Consensus（需要引用时）。
-**不需要全部问完**——只有当前组合结论冲突或证据不足时再追加渠道。渠道/模型更替在第八节登记。
+**不需要全部问完**——只有当前组合结论冲突或证据不足时再追加渠道。渠道/模型更替在 `channel-directory.md` 登记。
 
 ## 三、差异化提问原则（不是每个渠道问一样的）
 
@@ -121,3 +125,4 @@ Provide citations and confidence level.
 ## 变更记录
 
 - v1.0（2026-10-06）：首版。由珠宝搜索方法论 5 家群策群力实践沉淀；含分层路由 L1/L2/L3、渠道矩阵 P0-P4、差异化模板 A-D、执行流程、浏览器要点、更新机制
+- v1.1（2026-10-06）：渠道矩阵全面扩充——新增 `channel-directory.md`（七大类完整清单：传统搜索引擎 12 家 / 国外对话助手 11 家 / 国内对话助手 15 家 / AI 搜索研究引擎 14 家 / 学术专业引擎 / 垂直领域 / 自定义工具链，各含免费付费/API/网页/登录/需代理标注），矩阵改为"代表渠道+选择策略"，渠道更替统一在 channel-directory 登记
