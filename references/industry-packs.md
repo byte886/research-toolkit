@@ -49,7 +49,7 @@
 | 政策合规监控 | `(珠宝 OR 黄金 OR 钻石) (AI生成 OR AIGC OR 数字人) (监管 OR 合规 OR 标识 OR 广告法)` |
 | 海外案例复盘 | `(jewelry OR "fine jewelry") (AI OR "virtual try-on") (case study OR ROI OR workflow) -course -masterclass` |
 | 异常词扫描（捕捉变化） | `jewelry ("pilot" OR "beta" OR "launch" OR "partnership" OR "acquisition")` |
-| 百度语法（国内） | `(珠宝AI | AI珠宝 | 智能珠宝) (营销 | 个性化 | 虚拟试戴) (报告 | 案例 | 趋势) 2024..2026 -招聘 -课程` |
+| Google/Bing 语法 | `(珠宝AI | AI珠宝 | 智能珠宝) (营销 | 个性化 | 虚拟试戴) (报告 | 案例 | 趋势) 2024..2026 -招聘 -课程` |
 | X 实时信号 | `("jewelry AI" OR "virtual try-on jewelry") (marketing OR trend OR launch) min_faves:20 since:2026-01-01 -filter:replies` |
 | 工具价格 | `(即梦 OR 可灵 OR 苞米AI) (价格 OR 积分 OR 会员) 2026` |
 

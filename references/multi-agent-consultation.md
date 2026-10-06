@@ -19,7 +19,7 @@
 
 | 阶段 | 优先级 | 渠道（代表） | 类型 | 使用时机 | 付费建议 |
 |---|---|---|---|---|---|
-| 快速摸底 | P0 | Google / Bing / 百度（+搜狗/夸克/DuckDuckGo/Startpage/Brave/Yandex/Kagi） | 传统搜索引擎 | 永远先做 | 免费优先 |
+| 快速摸底 | P0 | Google / Bing / Kagi / Brave（+Startpage/DuckDuckGo/Mojeek/Marginalia/SearxNG，百度已弃用） | 传统搜索引擎 | 永远先做 | 免费优先，深调研可上 Kagi |
 | 通用推理 | P1 | Grok / Claude / ChatGPT / Gemini（+Perplexity/Copilot/Meta AI/Mistral/Poe/You.com/Cici） | 国外通用大模型 | 同步或紧接搜索后 | 有付费就用最新模型 |
 | 中文/垂直 | P2 | DeepSeek / 豆包 / 元宝（+文心/通义/智谱/Kimi/讯飞/海螺/天工/阶跃/百川/零一/360/澜舟） | 中文优化模型 | 中文语境/国内政策/本地化时 | 免费优先 |
 | 专业数据 | P3 | Perplexity / Consensus / Elicit / You.com（+ChatGPT Search/Gemini AI Mode/秘塔/天工AI搜索/纳米/Kimi Search/Phind/NotebookLM/Google AI Overviews） | 带引用 AI 搜索/学术引擎 | 需要证据链/论文/数据时 | 有付费用付费 |
@@ -27,7 +27,7 @@
 
 > **完整清单**（每类全部渠道 + 厂商/免费付费/API/网页/登录/需代理/停服坑）见 **`channel-directory.md`**（2026-10 版，多源验证）。矩阵只放代表渠道与组合策略。
 
-**选择策略（怎么按问题选渠道，详见 channel-directory.md §八）**：中文语境→国内组+百度/秘塔；要引用→Perplexity/ChatGPT Search/Consensus；实时社媒→Grok/站内；长文档→Kimi/Claude/NotebookLM；学术→Scholar/arXiv/Patents；开发排错→Phind/ChatGPT/Claude/GitHub；免费优先→豆包/DeepSeek/Kimi/秘塔/天工。
+**选择策略（怎么按问题选渠道，详见 channel-directory.md §八）**：中文语境→国内组+秘塔；要引用→Perplexity/ChatGPT Search/Consensus；实时社媒→Grok/站内；长文档→Kimi/Claude/NotebookLM；学术→Scholar/arXiv/Patents；开发排错→Phind/ChatGPT/Claude/GitHub；免费优先→豆包/DeepSeek/Kimi/秘塔/天工。
 
 **默认启动组合**（L3）：Google（或 Bing）＋ Grok + Claude（或 ChatGPT）＋ DeepSeek 或豆包（中文场景）＋ Perplexity / Consensus（需要引用时）。
 **不需要全部问完**——只有当前组合结论冲突或证据不足时再追加渠道。渠道/模型更替在 `channel-directory.md` 登记。
@@ -130,3 +130,4 @@ Provide citations and confidence level.
 - v1.1（2026-10-06）：渠道矩阵全面扩充——新增 `channel-directory.md`（七大类完整清单：传统搜索引擎 12 家 / 国外对话助手 11 家 / 国内对话助手 15 家 / AI 搜索研究引擎 14 家 / 学术专业引擎 / 垂直领域 / 自定义工具链，各含免费付费/API/网页/登录/需代理标注），矩阵改为"代表渠道+选择策略"，渠道更替统一在 channel-directory 登记
 - v1.2（2026-10-06）：新增 `research-router.md` 调研类型路由总表（15 类调研类型 × 层级 × 渠道 × 流程 × 交付），成为所有调研诉求唯一入口；`channel-directory.md` 扩至九大类 80+ 渠道（新增垂直数据源 8 类 + 社交社区 11 平台）；分层说明引用路由总表
 - v1.3（2026-10-06）：新增 `strategy-selection.md` 策略选择层——四种决策模式（规则路由/自省评估/群策元决策/预算门控）+ 十类策略组件 S1-S10（可任意组合重叠）+ 15 类调研类型基础/增强组合表 + 升级回退规则；分层节加策略指针
+- v1.4（2026-10-06）：P0 搜索引擎矩阵质量导向重选——**百度移除**（质量差，用户拍板），主力档 Google/Bing/Kagi/Brave + 小众高质档 Startpage/DuckDuckGo/Mojeek/Marginalia/SearxNG；选择策略同步去百度、改秘塔
