@@ -60,3 +60,12 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 **扩展位**（具备条件后启用，先在 `field-test-notes.md` 登记实测再使用）：Firecrawl key（Crawl/Map/批量 Extract/Monitor、MCP 接入）；中国土地市场网/公共资源交易中心/挂牌平台适配器；定时采集+快照 diff；社交 UGC 平台（小红书/Twitter/Reddit 读帖/公众号，启用前置与封号风险见 `field-test-notes.md` §待接入）；**行业包扩容（两主包向远期目标迭代——珠宝 300 中+300 英+50 模板；备选包与其它行业按通用四步法按需启用）**。
 
 > 新增任何取数能力，先写进 `channel-selection.md` 的通道表，再在流程中使用，保持单一权威清单。
+
+## OKF 知识层（采用声明 · okf-wiki v0.2 标准档）
+
+> 本技能 references 知识成品采用 OKF v0.2 标准档 frontmatter（方法见技能 `~/Doubao/skills/okf-wiki`）。**只叠加格式层，不建平行知识库**：index=本 SKILL.md 能力登记、log=各文档变更记录、schema=本文件；存量不强制回填，**新写/大改的 references 自然采用**。
+
+- **type 词表（技能统一，不得自造）**：`Methodology`（方法/流程文档：research-workflow、strategy-selection、channel-selection 等）/ `Reference`（目录·清单·包：channel-directory、industry-packs、source-schema 等）/ `Guide`（工具指南：scys-mcp-guide、firecrawl-guide 等）
+- **标准档字段**：`type` + `title` + `description` + `tags` + `sources`（四档来源链接）+ `generated`（`{by, at}`）+ `status`（stable/draft/deprecated）+ `stale_after`（按更新频率定）+ 自定义 key（`version` 等）
+- **信任标注**：机器初编不写 `verified: human`（不冒充人核）；用户审核后才补
+- **机械校验（提交前必过）**：`python3 ~/Doubao/skills/okf-wiki/scripts/okf_validate.py <目录> --exclude <存量未回填>`——硬错误 E 必须为 0，警告 W 逐条确认；存量文档 E1 属"存量不强制回填"预期，只校验已采用 OKF 的文档
