@@ -225,6 +225,9 @@
 | 行业/内容类型 | 主渠道 | 次渠道 | 理由 |
 |---|---|---|---|
 | **珠宝/时尚/生活方式** | Instagram（海外）+ 小红书（国内） | Pinterest/抖音/TikTok/得物 | 视觉驱动+高购买意图；IG="digital storefront"，Pinterest=珠宝顶级品类，小红书=珠宝购买决策引擎 |
+| **家具/家居（消费轨）** | Pinterest（高意图长尾，pin 6-12 个月仍带流量）+ 小红书（国内实景种草） | Instagram（品牌橱窗）/抖音（发现引擎）/Dezeen 等设计媒体 | 家具重视觉决策：海外 Pinterest 存图→IG 看品牌；国内小红书种草实景图；抖音占线上家具销售 ~65%（2026-10 家具包验证） |
+| **家具/家居（收藏轨·明清古典拍卖）** | 雅昌艺术网/嘉德·保利官网 | 抖音（鉴宝/拍卖切片）/微信公众号（拍行号） | 苏富比/佳士得官网 | Instagram（拍行账号） | 收藏轨成交第一落点在拍行官网+雅昌，社交侧只做传播面观察 |
+| **收藏品/艺术品（书画·腕表·名酒·沉香·西洋古董）** | 雅昌/拍行官网+得物（腕表·酒）+新华指数（沉香） | 抖音鉴宝/小红书收藏圈/知乎 | Sotheby's/Christie's/Phillips + Chrono24/1stdibs | Instagram/Reddit(r/Watches·r/ChineseArt)/X | 各品类都有专有价格/成交锚点（拍行·指数·评级），社交侧按"鉴伪讨论（知乎/Reddit）+视觉展示（IG/抖音）"分工；详见 industry-packs 候选包 |
 | **快消/电商/零售** | TikTok / 抖音（发现+趋势） | Instagram Reels / 小红书 / 电商平台站内 | 短内容发现、快测快迭代（Shopify 2026） |
 | **美食/家居/手作** | Pinterest（高意图长尾） | Instagram / 抖音 / 小红书 | pin 6-12 个月仍带流量、搜索+保存高意图（Eliivator 2026） |
 | **B2B/企业服务/SaaS** | LinkedIn（80% B2B leads）+ 脉脉（国内） | Reddit（第二决策者池）/ 微信企业号 / WeCom | LinkedIn 有机 229% ROI、62% B2B 营销者首选；Reddit 10 万专业社区 |

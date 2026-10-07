@@ -1,3 +1,30 @@
+---
+type: Reference
+title: 行业扩展包（industry packs）
+description: 鉴藏总域各行业词库/查询模板/垂类调研源/渠道补充包。已建：jewelry-ai（主）、jadeite（主）、ceramics（备选）、furniture（正式）；候选：painting-calligraphy / watches / spirits / agarwood-incense / western-antiques
+tags: [industry-packs, heritage, 行业包, 珠宝, 翡翠, 陶瓷, 家具, 书画, 腕表, 名酒, 沉香, 西洋古董]
+sources:
+  - id: salone-2026
+    resource: https://areapress.salonemilano.it/26_april_26_en/Final_Press_Release_Salone_del_Mobile_Milano_2026_ZH.pdf
+    title: Salone del Mobile.Milano 2026 官方终稿
+  - id: shangpu-furniture
+    resource: https://survey.shangpu-china.com/uploadfile/202601/795fead3832ec46.pdf
+    title: 尚普咨询 2026 年 1~10 月成套家具市场洞察报告
+  - id: sothebys-distilled
+    resource: https://www.sothebys.com/en/digital-catalogues/distilled-whisky-moutai-hk1612
+    title: 苏富比香港 Distilled | Whisky + Moutai 烈酒拍卖
+  - id: xinhua-agarwood
+    resource: https://indices.cnfin.com/jgzs/wenzixiangqingye/detail/20260518/4414070_1.html
+    title: 新华指数中国沉香价格指数（2026-04 月报）
+  - id: thepaper-guardian-2025
+    resource: https://www.thepaper.cn/newsDetail_forward_30904564
+    title: 中国嘉德 2025 春拍总成交 16 亿（澎湃）
+generated: { by: "doubao/okf-wiki", at: "2026-10-07T12:00:00+08:00" }
+status: draft
+stale_after: "2026-12-31T23:59:59+08:00"
+version: v2
+---
+
 # 行业扩展包（industry packs）
 
 > 不同行业有特定词汇、渠道和查询需求。按需建包，包与包独立、可复用。
@@ -10,9 +37,16 @@
 |---|---|---|---|---|
 | jewelry-ai | 珠宝营销 × 珠宝AI | heritage/01_jewelry | **当前主包** v3（2026-10-06） | 中文词库 40+ / 英文词库 30+ / 查询模板 15 条 / 渠道补充 / 珠宝特定调研源 8 组 / 按文明·市场体系细分 8 体系（通用维度实例） |
 | jadeite | 翡翠 | heritage/02_jadeite | **当前主包** v1（2026-10-06） | 产业带+产地双维度（帕敢/瑞丽公盘/揭阳·平洲·四会）/ 中英词库 / 查询模板 6 条 / 待验证 3 项 |
-| ceramics | 陶瓷 × 瓷器 | heritage/03_antiques | 备选包 v1（2026-10-06，知识保留） | 体系细分 5 组（艺术瓷/产业瓷/日本/欧洲/伊斯兰）/ 中英词库 / 查询模板 6 条 / 专属源（佛山陶博会·醴陵瓷博会·雅昌拍卖） |
+| ceramics | 陶瓷 × 瓷器 | heritage/03_ceramics | **正式包 v1（2026-10-07 用户拍板转正式，含陶瓷手串品类）** | 体系细分 5 组（艺术瓷/产业瓷/日本/欧洲/伊斯兰）+ **陶瓷手串专组（瓷珠文玩线）** / 中英词库 / 查询模板 6+2 条 / 专属源（佛山陶博会·醴陵瓷博会·雅昌拍卖） |
+| antiques | 古玩·古董（杂项器物总包） | heritage/03_antiques | **正式包 v1（2026-10-07 用户拍板转正式）** | 杂项器物支线（鼻烟壶/铜器/漆器/竹木牙角/文房/高古玉）+ 宗教艺术支线（佛造像/唐卡）+ 文人收藏支线（古籍/碑帖）；陶瓷支线指针→ceramics 包 |
+| furniture | 家具 × 家居 | heritage/04_furniture | **正式包 v1（2026-10-07 由示范段升级）** | 六体系双轨（收藏轨=明清古典拍卖 / 消费轨=新中式·北欧·日式·意式·美式）/ 中文词库 60+ / 英文词库 49 / 查询模板 12 条 / 家具特定调研源 8 组 / 待验证 6 项 |
+| painting-calligraphy | 书画/字画 | heritage/07_painting | **正式包 v1（2026-10-07 用户拍板转正式）** | 四体系（古代/近现代/当代水墨/书法墨迹）/ 中英词库 / 查询模板 5 条 / 拍行·雅昌专属源 / 待验证 3 项 |
+| watches | 腕表/钟表收藏 | heritage/08_watches | **正式包 v1（2026-10-07 用户拍板转正式）** | 四体系（瑞士制表/独立制表/德日表/古董表）/ 中英词库 / 查询模板 5 条 / Chrono24·Phillips 专属源 / 待验证 2 项 |
+| spirits | 名酒收藏（茅台×威士忌） | heritage/09_spirits | **正式包 v1（2026-10-07 用户拍板转正式）** | 双体系（中国陈年白酒 × 苏格兰·日本威士忌）/ 中英词库 / 查询模板 5 条 / 苏富比 Distilled·老酒专场专属源 / 待验证 2 项 |
+| agarwood-incense | 沉香/香道 | heritage/10_agarwood | **正式包 v1（2026-10-07 用户拍板转正式）** | 三体系（中国香道/日本香道/中东 Oud）/ 中英词库 / 查询模板 5 条 / **新华指数官方价格指数** / 待验证 4 项 |
+| western-antiques | 西洋古董·欧洲装饰艺术 | heritage/06_western | **正式包 v1（2026-10-07 用户拍板转正式，补位西方体系）** | 三体系（欧洲银器/装饰艺术·古董家具/外销艺术品）/ 中英词库 / 查询模板 4 条 / 博物馆特展·1stdibs 专属源 / 待验证 2 项 |
 
-> **当前主线（用户拍板 2026-10-06，二次收缩 + 鉴藏总域）**：横向广度已建立（通用维度+10 类品类清单），**切入点定为鉴藏总域下珠宝/翡翠两主包**——监控与调研默认命中两主包优先；陶瓷包知识保留、按需启用（归入鉴藏 03_antiques）；家具（04_furniture）、东方/西方体系（05/06）待建包，按需用通用四步法启用。
+> **当前主线（2026-10-07 用户拍板：10 个行业包全部正式）**：鉴藏总域下**已建 10 个行业包全部转正式**——珠宝/翡翠（主包）、陶瓷/古玩·古董（正式，含陶瓷手串与杂项器物）、家具（正式）、书画/腕表/名酒/沉香/西洋古董（正式）；各包对应监控仓 `场景应用/<行业>/` 场景实例已建。东方/西方体系（05/06）中 06 已由西洋古董补位。待验证项随监控实测回填。
 
 ### 主包使用指引
 
@@ -44,18 +78,9 @@
 | 建筑/室内设计 | 东方园林/日式/北欧/地中海/伊斯兰 |
 | 珠宝/古玩 | 见下（jewelry-ai 包 §6 实例） |
 
-### 示范：家具（用户点名，已展开）
+### 家具（已建正式包，见文末 `## 包：furniture`）
 
-| 体系 | 代表 | 专属调研源（强需求） |
-|---|---|---|
-| 中式 | 明清古典/新中式 | 中国家具协会 / CIFF 上海 / Furniture China（上海 2026-09）/ 雅昌（古董家具） |
-| 日式 | 和风/侘寂/Japandi | 东京国际家具展（IFFT）/ 无印良品·Karimoku 体系 / Japandi 趋势报告（2025 高端市场 $4.2B，+23%） |
-| 北欧 | 丹麦现代（Fritz Hansen·HAY·Muuto） | Stockholm Furniture Fair / Salone del Mobile（北欧馆）/ Finnstyle 等品牌体系 |
-| 意大利 | 高端设计 | **Salone del Mobile.Milano**（2026-04 第 64 届，31.6 万参观者/167 国）/ Mordor 意大利家具报告（2026 $16.74B→2031 $19.86B） |
-| 美式 | 传统/现代美式 | High Point Market（高点展）/ 西点展 |
-| 伊斯兰 | 阿拉伯/波斯 | Dubai Design Week / 中东家具展会 |
-
-> 中国消费风格数据参考（尚普咨询 2026 成套家具）：现代简约 32%、北欧 22%、中式 15%、美式 12%——市场风格集中，主流覆盖大部分需求。
+> 原"示范：家具"段已于 2026-10-07 升级为正式包（六体系双轨：收藏轨=明清古典拍卖 / 消费轨=新中式·北欧·日式·意式·美式日常家具），正文见文末。本通用维度表仅保留体系分支速览：中式(明清古典·新中式)/ 日式(和风·侘寂·Japandi)/ 北欧(丹麦现代)/ 意大利(高端设计)/ 美式(传统·现代)/ 伊斯兰(阿拉伯·波斯)。
 
 ---
 
@@ -156,9 +181,9 @@
 
 ---
 
-## 包：ceramics（陶瓷 × 瓷器）
+## 包：ceramics（陶瓷 × 瓷器 · 鉴藏总域 03_ceramics）
 
-> v1（2026-10-06）：用户拍板"珠宝/陶瓷/翡翠"为当前三大切入点，本包为三主包之一。按通用四步法建体系矩阵。
+> v1（2026-10-06 建包）；**v2（2026-10-07 用户拍板转正式 + 新增"陶瓷手串"品类）**。按通用四步法建体系矩阵；陶瓷手串=瓷珠文玩线（茶器衍生+文玩佩戴），与珠宝"手串/串珠"（金银/翡翠/玛瑙珠串=装饰佩戴线）、沉香"手串客群"（木质香珠=香道盘玩线）交叉不重复，三者材质与消费场景不同。
 
 ### 1. 体系细分（通用四步法）
 
@@ -166,6 +191,7 @@
 |---|---|---|---|
 | **中华 · 艺术瓷/名窑** | 景德镇(青花·粉彩·颜色釉)/醴陵(釉下五彩) | 景德镇国际陶瓷博览会 / 醴陵国际陶瓷产业博览会（2026-09-29~10-03）/ 智研咨询工艺陶瓷报告 / 雅昌·嘉德·保利（古瓷拍卖） | 抖音(开窑/手作) / 小红书(茶器) |
 | **中华 · 日用瓷/产业瓷** | 潮州(日用瓷·智能卫浴·出口)/佛山(建筑陶瓷·卫浴) | **佛山陶博会/CERAMBATH**（第44届 893 家企业·50 万㎡·3 万款新品；第45届 2026-10）/ 潮州陶瓷产业协会 / 广交会(140 届 2026-10) | 抖音 / 1688 / 广交会线上 |
+| **陶瓷手串（瓷珠文玩线）** | 青花瓷珠/汝窑珠/钧窑珠/建盏珠/紫砂珠/粉彩珠/瓷烧珠/老瓷片珠 | 景德镇珠坊源头（1688）/ 抖音文玩手串直播 / 文玩电商（得物·微拍堂）/ 雅昌（老瓷片珠收藏） | 抖音(手串直播) / 小红书(手串种草) / 1688(源头) |
 | **日本体系** | 有田烧/九谷烧/备前烧 | 日本陶瓷协会 / IFFT / 京瓷·香兰社等品牌体系 | Instagram / X |
 | **欧洲体系** | Meissen/Wedgwood/Limoges | 品牌官方 / 苏富比·佳士得（欧洲瓷器拍卖）/ 博物馆馆藏 | Instagram / Pinterest |
 | **伊斯兰** | 伊兹尼克陶 | 博物馆馆藏 / 学术期刊 | Instagram |
@@ -173,9 +199,11 @@
 ### 2. 核心词库
 
 - **中文**：陶瓷、瓷器、景德镇、青花瓷、粉彩、颜色釉、釉下五彩、醴陵、潮州瓷、日用瓷、艺术瓷、茶器、建盏、汝窑、官窑、哥窑、钧窑、定窑、五大名窑、古瓷、瓷片、开窑、柴窑、气窑、贴花、手绘
+- **中文（陶瓷手串专组）**：陶瓷珠、瓷珠、青花珠、汝窑珠、钧窑珠、建盏珠、紫砂珠、粉彩珠、瓷烧珠、陶瓷手串、老瓷片珠、碎瓷珠、瓷片项链、珠坊、瓷珠源头
 - **英文**：ceramics, porcelain, china ware, jingdezhen, celadon, blue and white, famille rose, kiln, glaze, tea ware, antique porcelain, Meissen, Wedgwood, Limoges, Arita, Kutani
+- **英文（陶瓷手串专组）**：ceramic bead bracelet, porcelain beads, jingdezhen beads, celadon beads, kiln-fired beads, ceramic mala, porcelain bead necklace
 
-### 3. 查询模板（6 条）
+### 3. 查询模板（6+2 条）
 
 | 监控问题 | 查询串 |
 |---|---|
@@ -185,6 +213,62 @@
 | 茶器/文玩趋势 | `(建盏 OR 紫砂 OR 茶器) (趋势 OR 收藏 OR 市场) 2026` |
 | 海外市场 | `(porcelain OR ceramics OR jingdezhen) (market OR auction OR trend) 2026` |
 | 展会情报 | `(陶瓷博览会 OR CERAMBATH OR 醴陵) (2026 OR 展销)` |
+| **陶瓷手串行情/市场** | `(陶瓷珠 OR 瓷珠 OR 青花珠) 手串 (市场 OR 价格 OR 直播 OR 文玩) 2026` |
+| **陶瓷手串海外/收藏** | `(ceramic bead OR porcelain bead) (bracelet OR jewelry OR market) after:2025-06-01` |
+
+### 4. 渠道补充（陶瓷手串特有）
+
+- **国内**：抖音（文玩手串直播：开窑珠坊/手工瓷珠主播）；小红书（手串种草/佩戴分享）；1688（景德镇·潮州珠坊源头厂，按"陶瓷珠/瓷珠"检索）；微拍堂/得物（文玩电商）；雅昌（老瓷片珠/古董珠收藏拍场）
+- **海外**：Instagram / Pinterest（ceramic bead 手工珠饰趋势）；Etsy（手工瓷珠商家，供货源/定价参照）
+- **边界**：与珠宝包"手串/串珠"（金银/翡翠/玛瑙=装饰佩戴线）交叉不重复；与沉香包"手串客群"（木质香珠=香道盘玩线）交叉不重复——陶瓷手串定位瓷珠文玩线（茶器衍生+文玩佩戴），关键词各自维护
+
+### 5. 待验证/待扩容（陶瓷手串）
+
+- 陶瓷手串市场规模/头部主播名单暂无权威数据源（🟡，直播电商口径待实测）
+- 1688 珠坊源头厂清单与价格锚点待录入（⚪）
+- 老瓷片珠收藏拍场数据（雅昌检索实测）待回填
+
+---
+
+## 包：antiques（古玩·古董 · 鉴藏总域 03_antiques · 杂项器物总包）
+
+> v1（2026-10-07 用户拍板转正式）。古玩·古董总包=**杂项器物支线**（本包正文）+ 陶瓷支线（指针→ceramics 包，不重复）+ 宗教艺术支线（佛造像/唐卡，拍行同嘉德·保利·匡时）+ 文人收藏支线（古籍/碑帖）。此前标"不重复建包"的文玩杂项（鼻烟壶/铜器/漆器/竹木牙角/文房）**并入本包杂项器物支线，不再丢弃**。
+
+### 1. 体系细分（杂项器物四步法）
+
+| 体系 | 代表 | 市场逻辑 | 专属调研源（强需求） | 主渠道 |
+|---|---|---|---|---|
+| **鼻烟壶** | 料器/玻璃、陶瓷、玉石、珐琅、竹木鼻烟壶 | 经典古玩门类，材质跨度大、藏家客群与珠宝/沉香重叠 | 嘉德/保利/西泠"文房雅玩"专场 / 雅昌（鼻烟壶图录）/ 潘家园 | 抖音鉴宝 / 小红书收藏圈 |
+| **宋代及历代器物** | 高古玉/明清玉（复用 jewelry 古玩体系）、铜器（青铜/宣德炉）、漆器（剔红）、竹木牙角 | 收藏投资+断代鉴定；拍行与藏家共享古玩生态 | 嘉德/保利"瓷杂"专场 / 雅昌 / 华夏收藏网 | 抖音鉴宝 / 贴吧 / 知乎 |
+| **文房器物** | 笔筒、砚台、印章、镇纸、臂搁 | 文人收藏、小众高价、印学社群 | 西泠印社拍卖 / 朵云轩 / 荣宝斋 | 微信 / 知乎 |
+| **宗教艺术**（支线） | 汉传/藏传佛造像、唐卡 | 三体系（汉传/藏传/尼藏）真实存在，拍行共享 | 嘉德/保利/匡时佛教艺术专场 | 抖音 / 小红书 |
+| **文人收藏**（支线） | 古籍善本、碑帖 | 学术性强、流动性低 | 西泠/嘉德古籍专场 | 微信 / 知乎 |
+
+### 2. 核心词库
+
+- **中文**：鼻烟壶、烟壶、料器、玻璃鼻烟壶、珐琅鼻烟壶、陶瓷鼻烟壶、玉石鼻烟壶、铜器、青铜器、宣德炉、铜炉、漆器、剔红、犀皮漆、竹木牙角、竹雕、牙雕、核雕、文房、笔筒、砚台、端砚、印章、田黄、鸡血石、镇纸、臂搁、高古玉、明清玉、香炉、佛造像、唐卡、古籍善本、碑帖、拓片
+- **英文**：snuff bottle, inside-painted snuff bottle, enamel snuff bottle, archaic jade, bronze vessel, bronze censer, lacquerware, carved lacquer, bamboo carving, ivory carving, literati objects, inkstone, duan inkstone, seals, field yellow stone, censer, buddhist sculpture, thangka, rare books, rubbings
+
+### 3. 查询模板（4+ 条）
+
+| 监控问题 | 查询串 |
+|---|---|
+| 鼻烟壶行情/收藏 | `(鼻烟壶 OR 料器) (拍卖 OR 收藏 OR 鉴定) 2026` |
+| 高古玉/文房器物 | `(高古玉 OR 宋代玉器 OR 文房 OR 笔筒 OR 砚台) (市场 OR 拍卖 OR 行情) 2026` |
+| 铜器/漆器杂项 | `(宣德炉 OR 铜器 OR 漆器 OR 剔红) (拍卖 OR 收藏 OR 行情) 2026` |
+| 海外杂项拍场 | `(snuff bottle OR archaic jade OR lacquerware) (auction OR market) after:2025-06-01` |
+| 宗教艺术/文人支线 | `(佛造像 OR 唐卡 OR 古籍善本) (拍卖 OR 专场 OR 成交) 2026` |
+
+### 4. 渠道补充（杂项特有）
+
+- 嘉德/保利/西泠"瓷杂""文房雅玩"专场（拍行官网图录）；雅昌艺术网（auction.artron.net，杂项成交可回溯）；华夏收藏网（cang.com）；潘家园/琉璃厂（线下市场）；抖音鉴宝（杂项鉴定号）；小红书收藏圈（鼻烟壶/文房种草）；贴吧（古玩杂项吧）
+- **复用不重复**：古瓷→ceramics 包；玉器→jewelry 包古玩体系；通用社交选型→channel-directory §9.3
+
+### 5. 待验证/待扩容（杂项）
+
+- 鼻烟壶专场成交数据/头部藏家名单待录入（🟡）
+- 宋代器物各门类（铜器/漆器/竹木牙角）市场规模无统一权威数据（⚪）
+- 抖音杂项鉴宝头部账号清单待实测
 
 ---
 
@@ -223,3 +307,152 @@
 - 翡翠价格指数（目前无统一权威指数，行情靠公盘+市场新闻跟踪——待确认是否有新指数源）
 - 揭阳/平洲/瑞丽各市场最新规模数据随公盘与年报更新
 - 翡翠直播品类数据（飞瓜/蝉妈妈口径）待实测
+
+---
+
+## 包：furniture（家具 × 家居 · 鉴藏总域 04_furniture）
+
+> v1（2026-10-07）：由"示范：家具（用户点名，已展开）"段升级为完整行业包。结构对齐 jewelry-ai 包。
+> **总域定位**：家具是"消费零售轨"（新中式/北欧/日式/意大利/美式日常家具）与"收藏投资轨"（明清古典家具/黄花梨/紫檀拍卖）双轨品类，调研先定位体系与轨道，再用专属源。
+> 来源标注四档：✅已查证（官方一手可回源）｜🔶经搜索补充（≥2 独立来源互证）｜🟡一方说法（单源降档）｜⚪未经核实（单列待查）。
+
+### 1. 体系细分表（六体系，双轨定位）
+
+| 体系 | 代表（品牌 / 产区 / 风格） | 市场逻辑 | 专属调研源（强需求） | 主渠道 |
+|---|---|---|---|---|
+| **中式 · 明清古典**（收藏轨） | 黄花梨/紫檀/红木家具；苏作/京作/广作；产区：福建仙游、浙江东阳、河北涞水（大城）、广东中山大涌 | 收藏投资+保值叙事+材质断代；交易走拍卖与红木市场；产业带在 CNFA 产业集群名单内 ✅ https://www.cnfa.com.cn/aboutcolonys.html?ord=asc | 雅昌艺术网拍卖图录 / 嘉德·保利古典家具专场 / 仙游·东阳红木产业带协会 | 抖音（红木鉴宝/工厂探店）/ 小红书（新中式美学） |
+| **中式 · 新中式**（消费轨） | 梵几、上下 ShangXia、吱音等；现代简约+明式线条 | 国潮消费+年轻客群+全屋定制；产业带：江西南康（2025 营收 2900 亿元、全国最大实木基地 ✅ https://wap.chinanews.com/wap/detail/chs/zw/10629648.shtml ）；中式风格占成套家具偏好 15% ✅（尚普 PDF，见下） | CNFA / CISS·Furniture China / 南康家具博览会 / 雅昌（古典端） | 抖音 / 小红书 |
+| **日式**（和风 · 侘寂 · Japandi） | MUJI、Karimoku、天童木工；静冈/旭川产区 | 极简收纳+原木；日本家具市场 2026 $23.57B→2031 $26.51B CAGR 2.38% ✅ https://www.mordorintelligence.com/industry-reports/japan-furniture-market ；Japandi 为欧美跨界趋势 | Interior Lifestyle Tokyo（2026-06-10~12，460 展商 ✅ https://interiorlifestyle-tokyo.jp.messefrankfurt.com/tokyo/en/facts-figures.html ）/ JAPAN FURNITURE SHOW（2026-11-03 ✅ https://japanfurniture.jp/en/ ） | Instagram / X / 小红书 |
+| **北欧**（丹麦现代） | Fritz Hansen、HAY、Muuto、Artek、&Tradition | 设计品牌溢价+经典款长尾；北欧风格占成套家具偏好 22% ✅（尚普 PDF） | Stockholm Furniture Fair（下届 2027-02 🟡 https://globalwood.org/fair/fair.htm ）/ Salone del Mobile 北欧馆 / 品牌官方 | Instagram / Pinterest |
+| **意大利**（高端设计） | B&B Italia、Poltrona Frau、Cassina、Flexform、Minotti；Brianza 产区 | 设计驱动+Made in Italy 溢价；意大利家具市场 2026 $16.74B→2031 $19.86B CAGR 3.48% ✅ https://www.mordorintelligence.com/industry-reports/italy-home-furniture-market | **Salone del Mobile.Milano**（2026 第 64 届 4.21~26，316,342 参观者/167 国，1,900 品牌 ✅ https://areapress.salonemilano.it/26_april_26_en/Final_Press_Release_Salone_del_Mobile_Milano_2026_ZH.pdf ）/ Pambianco / Mordor | Instagram / Dezeen / Pinterest |
+| **美式** | Ethan Allen、Restoration Hardware、Arhaus、Ashley | 北美 B2B 贸易展主导；美式风格占成套家具偏好 12% ✅（尚普 PDF） | **High Point Market**（Fall 2026：10.17~21 ✅ https://www.highpointmarket.org/about ；Spring 04-25~29 🔶）/ Furniture Today | Instagram / Pinterest / Facebook |
+| **伊斯兰** | 中东高净值奢华室内定制；波斯/阿拉伯纹样 | 高净值+视觉奢华+免税转口；迪拜为设计转口枢纽 | Dubai Design Week / INDEX Dubai（⚠️ 2026/2027 档期未核实 ⚪） | Instagram / LinkedIn |
+
+> **中国消费风格分布基准**（尚普咨询《2026 年 1~10 月成套家具市场洞察报告》✅ https://survey.shangpu-china.com/uploadfile/202601/795fead3832ec46.pdf ）：现代简约 32% > 北欧 22% > 中式 15% > 美式 12% > 工业风 5% > 复古 3%。**线上渠道结构（同 PDF）**：抖音 27.6 亿元占 ~65%、天猫 ~21%、京东 ~6%——抖音为家具线上第一渠道 ✅。
+> **中国产业地位**：世界第一大家具生产国、出口国、消费国 ✅ https://www.cnfa.com.cn/infonews36.html 。
+
+### 2. 核心词库（四维分类）
+
+**中文（60+）**
+- A 行业词：家具、实木家具、板式家具、软体家具、沙发、床垫、红木、黄花梨、紫檀、新中式、北欧风、日式侘寂、中古风、美式、全屋定制、整装、产业带、南康、乐从、厚街、蠡口、家博会、名家具展、米兰展、高点展
+- B AI/技术词：AI 设计、AIGC、3D 云设计、酷家乐、三维家、虚拟样板间、AR 摆场、数字人直播、AI 渲染、家居 3D 建模、空间设计、AI 生成图、智能体、大模型、电商素材生成
+- C 营销场景词：直播带货、抖音家具、小红书种草、门店获客、同城流量、私域、投流、爆款、新品发布、联名、全屋定制套餐、以旧换新、整装套餐、案例复盘
+- D 信号/意图词：拍卖成交、行情、价格、财报、展会报告、白皮书、市场规模、趋势、数据、增长、融资、战略合作、出口、关税、环保 ENF 级、E0 级
+
+**英文（49，统一小写命名）**
+- A industry：furniture, home furniture, solid wood furniture, upholstery, sofa, mattress, chinese antique furniture, huanghuali, new chinese style, japandi, wabi-sabi, scandinavian design, danish modern, italian furniture, mid-century modern, home decor, interior design
+- B ai-tech：ai design, generative ai, 3d room planner, ar furniture placement, virtual staging, digital human, ai rendering, room visualization, ai generated imagery, spatial design, ai agent
+- C marketing：furniture marketing, livestream commerce, seeding, dtc furniture, showroom, influencer, e-commerce, product launch, case study
+- D signal：market report, trend, auction result, sales, earnings, pilot, partnership, trade fair, high point market, salone del mobile, market size, growth forecast
+
+### 3. 查询模板（12 条，直接粘贴）
+
+| 监控问题 | 查询串 |
+|---|---|
+| 国内产业动态 | `(家具 OR 家居) (产业 OR 工厂 OR 出口 OR 关税) 2026` |
+| 产业带动态 | `(南康 OR 乐从 OR 厚街 OR 蠡口 OR 崇州) (家具 OR 产业) 2026` |
+| 国内展会情报 | `(CIFF OR 家博会 OR "Furniture China" OR 名家具展) (2026 OR 2027) (时间 OR 回顾 OR 新品)` |
+| 海外展会情报 | `(Salone del Mobile OR "High Point Market") (2026 OR 2027) (visitors OR exhibitors OR trend)` |
+| 拍卖收藏行情 | `(黄花梨 OR 紫檀 OR 明清家具 OR 古典家具) (拍卖 OR 成交) (嘉德 OR 保利 OR 苏富比) 2026` |
+| 海外风格趋势 | `(furniture OR "home decor") (trend OR style OR collection) after:2026-01-01` |
+| AI/数字化应用 | `(家具 OR 家居) (AI OR 数字人 OR 3D云设计 OR AR摆场) (案例 OR 落地) -招聘 -培训` |
+| 价格行情 | `(家具 OR 红木 OR 木材) (价格 OR 行情 OR 涨跌) 2026` |
+| 直播电商动态 | `(家具 OR 家居) 直播 (抖音 OR 带货 OR GMV OR 案例) 2026` |
+| 风格趋势（新中式/Japandi） | `(新中式 OR 中古风 OR Japandi OR 侘寂) (家具 OR 家居) (趋势 OR 品牌) 2026` |
+| 行业报告 | `(furniture OR 家具) (market OR report OR 趋势) filetype:pdf 2026` |
+| 海外 AI 落地 | `(furniture OR "home furnishing") (AI OR "artificial intelligence" OR "virtual staging") (case study OR launch) after:2025-06-01` |
+
+### 4. 渠道补充（家具特有）
+
+**国内**：协会=中国家具协会 CNFA ✅ https://www.cnfa.com.cn/ ；展会=CIFF 上海（2026-09-05~08 虹桥，21 万㎡/1,200+ 品牌 ✅ https://www.ciff-sh.com/ ）、Furniture China（第 31 届 2026-09-08~11 浦东 SNIEC ✅ https://reg.furniture-china.cn/zh-cn/user/login ）、东莞名家具展（厚街）、成都国际家具工业展、广州定制家居展（每年 3 月 ✅ http://www.chfgz.com ）；媒体=家具在线、家居邦、77 度、戴蓓 Talk、泛家居圈、大材研究 ✅ https://www.cbdfair-sh.com/Cn/Index/listView/catid/21.html ；数据=蝉妈妈/飞瓜/新红（家具类目）、巨量算数、尚普/博研公开报告（二手机构，降档引用）。
+**海外**：展会=Salone del Mobile（4 月）/ High Point Market（4 月、10 月）/ Interior Lifestyle Tokyo（6 月）/ Stockholm Furniture Fair（2 月）/ INDEX Dubai（中东）；媒体=Dezeen（✅ https://www.dezeen.com/design/furniture/ ）、Furniture Today、Interior Design、Wallpaper*、Pambianco；拍卖=国内嘉德·保利·西泠（古典家具专场）、海外苏富比·佳士得（Chinese furniture，如 Christie's 2026-04 石头书屋藏中国家具专题 ✅）；结构性判断：家具行业无类似 Rapaport 的全球统一权威机构，以展会主办方+行业媒体为核心数据源（🟡）。
+
+### 5. 家具特定调研源（8 组）
+
+| 调研目标 | 专有源（主） | 用途/证据 |
+|---|---|---|
+| 古典家具拍卖行情 | 嘉德·保利古典家具专场 + 雅昌图录 | 嘉德 2026 春拍"澄怀"专场 9487 万元/成交率 72% ✅ https://m.thepaper.cn/newsDetail_forward_33341969 ；保利 2026 春拍明黄花梨榻 2507 万元 ✅ https://amma.artron.net/observation_shownews.php?newid=1152438 |
+| 产业带/货源动态 | CNFA 产业集群页 + 南康/乐从/厚街/蠡口新闻 | CNFA 名录（玉环/宁津/崇州/南康/普兰店+蠡口/厚街流通市场）✅；南康 2025 营收 2900 亿 ✅ |
+| 展会风向 | 五大展会官方页 | 展前新品预告+展后媒体回顾=风格风向标；Salone 2026 官方终稿 ✅ |
+| 海外市场规模 | Mordor Intelligence 国家报告 | 意大利 $16.74B→$19.86B ✅；日本 $23.57B→$26.51B ✅ |
+| 线上渠道结构 | 尚普咨询成套家具 PDF | 抖音占 ~65%/天猫 ~21%/京东 ~6% ✅——抖音=家具线上第一渠道的直接证据 |
+| 行业媒体 | Dezeen（海外）/ 家具在线·家居邦·77 度（国内） | 品牌新品、材料创新、产业带动态 |
+| 红木鉴定/行情 | 雅昌艺搜拍品库（按"黄花梨"检索） | 实时拍品估价/成交=材质行情指针；嘉德秋拍黄花梨拍品在列 ✅ https://artso.artron.net/auction/search_auction.php?keyword=黄花梨 |
+| AI 数字化落地 | 酷家乐/三维家 + 抖音电商学习中心 | 家具 AI 落地在"3D 云设计/AR 摆场/数字人直播"三场景（案例数待实测 🟡） |
+
+### 6. 待验证/待扩容
+
+1. Japandi "$4.2B/+23%" 仅单源（designsignal.ai 🟡）且与 Grand View 转引（CAGR 8.7%/2030 $15.6B 🟡）口径矛盾——引用必须降档，建议弃用或找原始报告回填
+2. "西点展"名称/档期未确认（疑 WestEdge Design Fair ⚪）
+3. INDEX Dubai / Dubai Design Week 2026/2027 档期未核实 ⚪
+4. 家具无统一权威价格指数（同翡翠），行情靠拍卖+产业带新闻+报告跟踪 🟡
+5. 国内家具电商大盘数据（如 5820 亿元/占零售 43.6%）来自博研咨询转引稿 🟡，不作精确引用
+6. 词库/模板为核心 v1，随监控回填（中古家具/以旧换新/全屋智能等）
+
+### 7. 家具场景×渠道匹配建议
+
+| 场景 | 国内主 | 国内次 | 海外主 | 海外次 | 理由 |
+|---|---|---|---|---|---|
+| 新品趋势监控 | 小红书（购买决策引擎） | 抖音（发现引擎）；微信公众号 | Pinterest（高意图长尾，§9.3.2 家居行指定主渠道） | Instagram；Dezeen/ArchDaily | 家具重视觉决策：海外先 Pinterest 存图再 IG 看品牌；国内小红书种草实景图 |
+| 价格行情 | 抖音（线上成交数据密） | 微信；知乎（避坑讨论=价格敏感度信号） | X（木材/关税实时） | Reddit（r/furniture） | 价格要"数据+情绪"双轨：抖音占线上 ~65% ✅ 尚普 PDF；海外宏观实时性要求高 |
+| 产业带动态 | 抖音（工厂探店/源头直播） | 微信（协会通告）；脉脉 | LinkedIn（B2B 出口决策者） | Facebook（本地社区） | 产业带=B2B 供给侧情报；海外对接买家属 B2B（§9.3.2 B2B 行） |
+| 拍卖收藏 | 雅昌/嘉德·保利官网 | 抖音（鉴宝/拍卖切片）；微信公众号 | 苏富比/佳士得官网 | Instagram（拍行账号） | 收藏轨成交信息靠拍行官网+雅昌（§5），社交只做传播面 |
+| 海外风格风向 | 小红书（本土化译介） | B站（家居改造长视频） | Pinterest + Instagram | Dezeen；YouTube | 视觉趋势采集：Pinterest 主渠道；日式体系加 X（日本渗透率极高 §9.3.1） |
+| AI/数字化落地 | 抖音（数字人直播案例） | 小红书（AI 出图对比）；B站（教程） | LinkedIn（家具 SaaS/3D 工具厂商）+ Reddit | X；YouTube | AI 落地=B2B 工具+营销案例混合：国内案例在抖音/小红书，海外工具厂商在 LinkedIn |
+
+---
+
+## 包：painting-calligraphy（书画/字画 · 07_painting）
+
+> v1（2026-10-07 用户拍板转正式）。中国艺术品拍卖第一大品类，高净值藏家与珠宝客群同源。详细论证见调研中间件 `supplement-industries.md` §2（监控仓 01_渠道矩阵/行业细分表 §3.6、场景应用/painting/）。
+
+- **市场锚点**：嘉德 2025 春拍总成交 16 亿 ✅ https://www.thepaper.cn/newsDetail_forward_30904564 ；保利 2025 春拍书画板块 +74.5%、傅抱石《柳溪仕女》2415 万 ✅ http://epaper.zqrb.cn/html/2025-10/18/content_1189493.htm
+- **四体系**：中国古代书画（嘉德古代夜场/故宫上博馆藏研究）/ 中国近现代书画（保利/荣宝斋，收藏投资主战场）/ 当代水墨（ART021/画廊周）/ 书法墨迹（西泠印社/朵云轩）
+- **词库要点**：书画、字画、国画、古代书画、近现代书画、张大千、齐白石、傅抱石、册页、手卷、立轴、信札、碑帖、荣宝斋、西泠印社、嘉德、保利、雅昌；英文 Chinese painting / calligraphy / handscroll / evening sale / provenance / hammer price
+- **查询模板**：`(书画 OR 字画 OR 国画) (拍卖 OR 成交) (嘉德 OR 保利 OR 西泠) 2026`；`(张大千 OR 齐白石 OR 傅抱石) (拍卖 OR 成交 OR 千万) 2026`；`(书画) (真伪 OR 作伪 OR 鉴定) 2026`
+- **渠道匹配**：拍场成交→雅昌/拍行官网；鉴伪舆情→抖音鉴宝+知乎+Reddit(r/ChineseArt)；当代水墨→小红书+B站+Instagram+Artsy
+- **待验证**：全年字画市场规模 128.6 亿（豆丁转引 AMMA 🟡 待以 AMMA 年报替换）
+
+## 包：watches（腕表/钟表收藏 · 08_watches）
+
+> v1（2026-10-07 用户拍板转正式）。硬奢回收增速最猛赛道，与珠宝共享"鉴定-回收-保值"叙事。详细论证见 `supplement-industries.md` §3（监控仓行业细分表 §3.7、场景应用/watches/）。
+
+- **市场锚点**：2025 国内腕表回收约 491 亿、CAGR~30.5% 🔶 https://finance.sina.com.cn/tjhz/2026-09-15/doc-inirwmwe3680394.shtml.md ；2026H1 全球二手腕表 105 亿美元 +37.2% 🔶（同源）
+- **四体系**：瑞士高级制表（劳力士/百达翡丽/爱彼，WatchBox/得物/腕表之家）/ 独立制表（F.P.Journe/GPHG/Only Watch）/ 德日表（Grand Seiko，X 日本表圈）/ 古董表怀表（拍行钟表部）
+- **词库要点**：腕表、劳力士、百达翡丽、爱彼、江诗丹顿、理查德米勒、独立制表、Grand Seiko、二手表、回收、保值、公价、溢价、绿水鬼、鹦鹉螺；英文 wristwatch / Rolex / Patek Philippe / pre-owned / resale / secondary market / Chrono24
+- **查询模板**：`(腕表 OR 名表) (行情 OR 价格 OR 涨跌) (劳力士 OR 百达翡丽) 2026`；`(watch OR Rolex OR Patek) (auction OR Sotheby's OR Christie's) after:2025-06-01`；`(independent watch OR GPHG OR Only Watch) 2026`
+- **渠道匹配**：二级行情→腕表之家+得物+Chrono24+WatchBox；鉴定讨论→知乎+Reddit(r/Watches)；顶级拍场→Phillips+Sotheby's 钟表部
+- **待验证**：Chrono24 价格指数免费可得性与查询语法 🟡；劳力士二手指数较 2022 峰值回落约 30% 仅单源 🟡
+
+## 包：spirits（名酒收藏 · 09_spirits）
+
+> v1（2026-10-07 用户拍板转正式）。中国陈年白酒 × 苏格兰/日本威士忌双体系，天然套用东方/西方框架；市场正处分化期（老酒量价齐跌 vs 顶级威士忌创纪录），监控价值最高。详细论证见 `supplement-industries.md` §4（监控仓行业细分表 §3.8、场景应用/spirits/）。
+
+- **市场锚点**：苏富比香港 Distilled 2025 首拍 942 组/2000+ 瓶创香港烈酒拍卖纪录 ✅ https://www.sothebys.com/en/digital-catalogues/distilled-whisky-moutai-hk1612 ；嘉德春拍 576 瓶茅台 532 万港元 ✅ https://jiu.ifeng.com/c/8iRQd7vwp47 ；陈年茅台(30)得物破发一度 -25% ✅ https://news.qingdaonews.com/qingdao/2026-05/20/content_23735437.htm ；2026H1 日本威士忌指数回调 10.6% 🔶 https://scotchwhiskyinvestments.com/en/whisky-half-year-update-2026
+- **双体系**：中国陈年白酒（嘉德/保利/西泠老酒专场+阿里/京东拍卖+得物行情）/ 苏格兰·日本威士忌（苏富比 Distilled+Scotch Whisky Investments 指数+Whisky Auctioneer）/ 干邑雅文邑（拍行附属品类）
+- **词库要点**：茅台、陈年茅台、老酒、五粮液、威士忌、麦卡伦、山崎、轻井泽、干邑、路易十三、原箱、生肖酒、破发、量价齐跌；英文 whisky / Macallan / Yamazaki / Moutai / aged baijiu / investment whisky / single cask / hammer price
+- **查询模板**：`(茅台 OR 老酒) (拍卖 OR 行情 OR 价格) 2026`；`(茅台 OR 年份酒) (得物 OR 破发 OR 倒挂) 2026`；`(whisky OR Macallan OR Yamazaki) (auction OR record) after:2025-06-01`
+- **渠道匹配**：白酒→得物+阿里/京东拍卖+抖音酒商直播（国内市场封闭）；威士忌→Instagram+Sotheby's+Reddit(r/Scotch)+Telegram
+- **待验证**：老酒市场规模 89.4 亿（豆丁 🟡 待替换）；茅台价格锚点需按电商平台实时核对
+
+## 包：agarwood-incense（沉香/香道 · 10_agarwood）
+
+> v1（2026-10-07 用户拍板转正式）。少有的官方挂牌价格指数品类（新华指数），手串客群与珠宝门店直接重叠。详细论证见 `supplement-industries.md` §5（监控仓行业细分表 §3.9、场景应用/agarwood/）。
+
+- **市场锚点**：新华指数"中国沉香价格指数"——2026-04 中国沉香（手串）电商价格指数 730.80 点、均价 417.12 元/件 ✅ https://indices.cnfin.com/jgzs/wenzixiangqingye/detail/20260518/4414070_1.html ；2026-08 海南沉香（手串）制品指数单月 +19.23% ✅ https://m.cnfin.com/cy-lb/zixun/20260929/4476228_1.html ；全产业链超 300 亿、年增速 ~20% 🔶 http://news.qq.com/rain/a/20260421A01QP600
+- **三体系**：中国香道/海南沉香（新华指数/澄迈香世界/抖音直播）/ 日本香道（伽罗/名香，外部可达性弱 🟡）/ 中东 Oud（agarwood.com 参考价 🟡）
+- **词库要点**：沉香、海南沉、莞香、奇楠、伽罗、线香、盘香、香道、手串、惠安系、星洲系、芽庄、富森红土；英文 agarwood / oud / aloeswood / kyara / incense / agarwood bracelet / oud oil
+- **查询模板**：`(沉香) (价格指数 OR 行情 OR 价格) 2026`；`(海南 OR 莞香 OR 芽庄) (沉香 OR 结香) 2026`；`(agarwood OR oud) (price OR market) 2026`
+- **渠道匹配**：行情→新华指数+agarwood.com；直播电商→抖音+小红书+TikTok（中东）；香道文化→微信公众号+小红书+B站
+- **待验证**：香产业分会准确名称 🟡；狭义市场 127.6 亿（中国经济新闻网 🟡）；日本/中东外部可达性待实测
+
+## 包：western-antiques（西洋古董·欧洲装饰艺术 · 06_western）
+
+> v1（2026-10-07 用户拍板转正式）。补位总域"西方体系"入口（原 05/06 待建包框架），与珠宝包第 7 体系（古埃及/地中海古物）形成同域对照。详细论证见 `supplement-industries.md` §6（监控仓行业细分表 §3.5、场景应用/western-antiques/）。
+
+- **市场锚点**：杭州博物馆×梁毅博物馆西方银器展 80 套（18-20 世纪）✅ https://www.liangyimuseum.com/_files/ugd/c40d14_c2033b39b7e7491daacfc3debc4f3a84.pdf ；长沙博物馆清代外销精品展 ✅ http://wlgd.changsha.gov.cn/fwms/whhdxx/zlhdyg/202511/t20251103_12041557.html ；瑞典 Täby 拍卖行"欧洲私藏·亚洲艺术品"专场 ✅ https://m-news.artron.net/20251013/n1144828.html
+- **三体系**：欧洲银器（伯明翰银戳/洛可可/梁毅博物馆/华夏收藏网）/ 装饰艺术·古董家具（Sotheby's/Christie's 装饰艺术部+Bonhams）/ 外销艺术品（十三行/回流叙事/博物馆特展）
+- **词库要点**：西洋古董、欧洲古董、银器、伯明翰银戳、洛可可、维多利亚、古董家具、外销瓷、外销银器、广州十三行、Art Deco；英文 European antique / silverware / sterling silver / hallmarks / decorative arts / export ware / 1stdibs
+- **查询模板**：`(西洋古董 OR 欧洲古董 OR 银器) (展览 OR 拍卖 OR 收藏) 2026`；`(silverware OR decorative arts) (auction OR Sotheby's) after:2025-06-01`；`(外销 OR 十三行) (银器 OR 回流 OR 展) 2026`
+- **渠道匹配**：展讯学术→微信公众号+知乎+IG+Pinterest；零售探店→抖音+小红书+Instagram+1stdibs；海外拍场→Sotheby's/Christie's/Bonhams+Antiques Trade Gazette
+- **待验证**：国内西洋古董市场规模无权威数据 🟡；1stdibs 查询语法待实测
