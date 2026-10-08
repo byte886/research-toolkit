@@ -2,7 +2,7 @@
 
 网络调研与公开网页采集的统一编排：界定问题→选源→采集→交叉核验→结构化溯源→交付归档，集成联网搜索、web.fetch、Firecrawl 与垂直领域检索。
 
-> 体系定位：五仓体系的"调研方法论层（怎么查）"；五仓全景与跨仓路由见总控仓 `multi-repo-orchestration`（`~/Desktop/multi-repo-orchestration/`，GitHub: `github.com/byte886/multi-repo-orchestration`）。
+> 体系定位：五仓体系的"调研方法论层（怎么查）"。
 
 ## 使用
 
