@@ -1,4 +1,4 @@
-# web-research-toolkit
+# research-toolkit
 
 网络调研与公开网页采集的统一编排：界定问题→选源→采集→交叉核验→结构化溯源→交付归档，集成联网搜索、web.fetch、Firecrawl 与垂直领域检索。
 

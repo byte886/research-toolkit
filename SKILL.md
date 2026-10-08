@@ -1,10 +1,10 @@
 ---
-name: web-research-toolkit
+name: research-toolkit
 description: 网络调研与公开网页数据采集的统一编排技能，**是所有调研诉求的唯一统一入口**。做资料搜集、市场/政策/行业/竞品调研、网页批量采集或转结构化(JSON/表格)、事实核查与信源溯源、网页变更监控、土地成交/挂牌等房地产数据采集时使用；**重点决策或自身能力不足的问题需"多源群策群力"（外部 Chrome 分别问 Gemini/ChatGPT/Claude/Grok/DeepSeek/豆包/元宝等多家 AI 交叉验证）时使用**；含生财有术(scys-mcp)站内付费圈内容检索。按任务特征路由取数通道，**按调研类型路由总表（research-router）匹配 15 类调研类型**，按需求层级（L1 轻量速查/L2 标准调研/L3 深度决策）选择调研力度，并固化"界定→选源→采集→交叉核验→结构化溯源→交付"标准流程；**执行任何调研任务时本 Agent 自己也必须按此技能分层路由**。
 compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API，不依赖操作系统专有能力；已在 macOS 实测，其余平台遇路径/编码/本机代理差异就地适配，无需按 OS 拦截停跑"
 ---
 
-# 网络调研工具箱（web-research-toolkit）
+# 网络调研工具箱（research-toolkit）
 
 > 本技能是"鉴藏（heritage）体系"的调研方法论层（怎么查）。行业包归属鉴藏子域（jewelry-ai→heritage/01_jewelry、jadeite→heritage/02_jadeite、ceramics→heritage/03_antiques）。
 

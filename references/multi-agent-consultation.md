@@ -8,7 +8,7 @@
 | 层 | 适用 | 耗时 | 动作 |
 |---|---|---|---|
 | **L1 轻量速查** | 事实核查、快速概念、单一事实问题、翻译/改写核对 | ≤10min | 内置搜索或 web.fetch 精读，必要时问 1 家 AI 交叉；**不启动多源** |
-| **L2 标准调研** | 一般调研、选型对比、行业了解、资料搜集汇总 | 30-60min | 搜索引擎 + 2-3 家高互补 AI + 关键事实交叉核验（web-research-toolkit 标准 7 步流程） |
+| **L2 标准调研** | 一般调研、选型对比、行业了解、资料搜集汇总 | 30-60min | 搜索引擎 + 2-3 家高互补 AI + 关键事实交叉核验（research-toolkit 标准 7 步流程） |
 | **L3 深度决策** | **重点决策、自身能力不足/不确定的问题**、高风险结论、跨领域综合 | 1-2h | 完整多源机制（下文第二~七节全部）+ 三角验证 + 情报卡片 + 固定结论格式 |
 
 **判定**：问题影响方向/方案/投资/合规 → L3；拿不准 → 按 L2 起步，发现证据冲突或信息不足再升级 L3。**用户点名"群策群力/多 AI 交叉验证"时直接 L3**。
@@ -109,7 +109,7 @@ Provide citations and confidence level.
 
 ## 七、与本工具链其他技能的分工
 
-- 网页取数/精读/信源分级 → web-research-toolkit 主流程（channel-selection.md / research-workflow.md / source-schema.md）
+- 网页取数/精读/信源分级 → research-toolkit 主流程（channel-selection.md / research-workflow.md / source-schema.md）
 - 搜索操作符/关键词工程/信号筛选/查询模板 → 《搜索方法论 v2》（监控仓 `03_监控机制/搜索方法论.md`，本技能可引用其模板库）
 - 视频/音频平台（抖音/B站/YouTube）素材 → `multiplatform-media-fetch`
 - 行业特定词库/查询包 → `industry-packs.md`（第八节登记）
