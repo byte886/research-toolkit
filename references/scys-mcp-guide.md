@@ -83,4 +83,13 @@
 - **只走官方 MCP**：官方 OAuth 接口不会封号；不要改用浏览器插件或模拟点击爬站（有圈友因此被封）。
 - 抓取/调用失败、为空要如实报告，不用旧快照或臆测填充（与 SKILL.md 溯源硬规则一致）。
 
+### 4.1 授权后/重连后工具调不到怎么办（2026-10-09 实测）
+
+豆包 GUI 里 scys-mcp 开关已 on、OAuth 已走完，但当前对话 `execute_defer_tool` 报 `tool not found` 时，按这个顺序排查，**不要急着让用户新开对话，也不要去磁盘里挖 token**：
+
+1. **先在当前对话重新 `tool_search` 一次**：用关键词 `scys mcp contentSearch topicDetail listMenu 生财有术` 搜。授权刚完成的几分钟内，老对话的工具列表看似固化，但重新 tool_search 会把 `mcp__scys_mcp__*` 这批 schema 重新拉回来，立刻就能 `execute_defer_tool` 调用——不用新开对话。
+2. **工具名实际是全小写**：MCP 注册到豆包时工具名被转成小写，调的时候用 `listmenu` / `searchtopic` / `topicdetail` / `getprofileinfo`，**不是** guide §3 表格里写的驼峰 `listMenu`/`searchTopic`/`topicDetail`。以 tool_search 返回的真实 name 字段为准，不要凭 §3 表格硬拼驼峰。
+3. **不要从磁盘挖 OAuth token**：token 由豆包连接器自动管理（HTTP+OAuth2.1+PKCE），不在 `~/.doubao/secrets/*.enc`、不在 leveldb、不在 macOS keychain、不在 Local Storage。直接 curl `https://mcp.scys.com/shengcai-web/mcp` 不带 token 会 401，这是正常的——token 只活在豆包连接器进程里。遇到 401 先看 GUI 里开关是不是真 on、是不是刚授权完需要重拉 tool_search，不要去翻文件系统。
+4. **连通性自检**：调 `listmenu`（无参），返回标签菜单即通；返回 401/invalid_token 才是真掉线，回 GUI 重新点连接授权。
+
 > 做一次**大型主题调研**的完整 8 步管线、AI 亦仁的分工原则与提问句式，见 `scys-mcp-research-playbook.md`。
