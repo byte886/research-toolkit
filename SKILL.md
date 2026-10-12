@@ -33,17 +33,17 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 | 要做什么 | 用什么 | 读哪篇 |
 | --- | --- | --- |
-| 通道总览、决策树选型、网络分流 | —（先选通道再动手） | `channel-selection.md` |
-| 不知信息在哪、探索性问题、少量事实、要最新动态 | 内置联网搜索（一次并行 ≤3 query） | `channels-detail.md` §3.1 |
-| 学术/金融/医疗/企业内部垂直检索 | 对应垂直检索技能；中国大陆法规走 pkulaw-legal-data | `channels-detail.md` §3.2 |
-| 已知 URL 要全文、在线 PDF、大陆 gov.cn 政府站 | web.fetch（分页读完，不受本机代理影响） | `channels-detail.md` §3.3 |
-| 整站批量、JS 动态页、固定字段 JSON、变更监控 | Firecrawl（脚本 `scripts/fc_scrape.py`，按 credit 计费） | `firecrawl-guide.md` |
-| 英文/海外资料、语义"找相似"、Reddit 讨论线索 | Exa 语义搜索（`scripts/exa_search.py`，免 key、直连） | `channels-detail.md` §3.6 |
-| 海外已知页 web.fetch/Firecrawl 都读不下 | Jina Reader（`scripts/jina_read.py`，走代理） | `channels-detail.md` §3.7 |
-| 生财有术站内私有资料（精华帖/项目库/航海手册/圈友/足迹） | scys-mcp 连接器（需会员+OAuth，默认只读） | `scys-mcp-guide.md` |
-| 政策/红头文件权威库与五级分层找法 | policy-source-map | `policy-source-map.md` |
+| 通道总览、决策树选型、网络分流 | —（先选通道再动手） | `references/channel-selection.md` |
+| 不知信息在哪、探索性问题、少量事实、要最新动态 | 内置联网搜索（一次并行 ≤3 query） | `references/channels-detail.md` §3.1 |
+| 学术/金融/医疗/企业内部垂直检索 | 对应垂直检索技能；中国大陆法规走 pkulaw-legal-data | `references/channels-detail.md` §3.2 |
+| 已知 URL 要全文、在线 PDF、大陆 gov.cn 政府站 | web.fetch（分页读完，不受本机代理影响） | `references/channels-detail.md` §3.3 |
+| 整站批量、JS 动态页、固定字段 JSON、变更监控 | Firecrawl（脚本 `scripts/fc_scrape.py`，按 credit 计费） | `references/firecrawl-guide.md` |
+| 英文/海外资料、语义"找相似"、Reddit 讨论线索 | Exa 语义搜索（`scripts/exa_search.py`，免 key、直连） | `references/channels-detail.md` §3.6 |
+| 海外已知页 web.fetch/Firecrawl 都读不下 | Jina Reader（`scripts/jina_read.py`，走代理） | `references/channels-detail.md` §3.7 |
+| 生财有术站内私有资料（精华帖/项目库/航海手册/圈友/足迹） | scys-mcp 连接器（需会员+OAuth，默认只读） | `references/scys-mcp-guide.md` |
+| 政策/红头文件权威库与五级分层找法 | policy-source-map | `references/policy-source-map.md` |
 
-> 通道总览表、决策树、各通道实测边界见 `channel-selection.md`；网络分流与"先英后中"检索语言策略见 `network-and-language.md`；实测台账与待接入清单见 `field-test-notes.md`。
+> 通道总览表、决策树、各通道实测边界见 `references/channel-selection.md`；网络分流与"先英后中"检索语言策略见 `references/network-and-language.md`；实测台账与待接入清单见 `references/field-test-notes.md`。
 > 成本原则：能用低成本通道解决就不上重通道；要穷尽/结构化/反复更新才上 Firecrawl。
 
 ## 溯源硬规则（不可违反，入口当场生效）
@@ -57,11 +57,11 @@ compatibility: "跨平台：scripts 仅用 Python 标准库与云端取数 API�
 
 ## 能力与扩展位（迭代登记处）
 
-**已就位**：内置联网搜索 + 垂直检索路由；web.fetch 精读（含大陆 gov.cn 兜底）；Firecrawl 单页（Markdown/JSON，keyless 实测可用）；Exa 英文语义搜索、Jina 海外网页兜底、gh/RSS/V2EX 均已实测；国内外网络分流；生财有术 scys-mcp 搜读+AI 亦仁全管线（详见 `scys-mcp-guide.md`）；**多源群策群力机制（L3 深度决策，5 家 AI 实测，含渠道矩阵/差异化模板/浏览器执行要点/更新机制）**；**完整渠道目录（九大类 90+ 渠道，2026-10 多源验证）**；**策略选择层（四种决策模式 + S1-S11 可组合策略组件含 AI↔搜索迭代回路 + 十种 AI 协作模式 + 强需求渠道指定 + 常规需求默认策略 + 群策元决策）**；**行业包机制（已建 9 包全正式：主包 珠宝 v3 + 翡翠 v1，正式包 陶瓷 v1 + 家具 v1 + 书画 v1 + 腕表 v1 + 名酒 v1 + 沉香 v1 + 西洋古董 v1，含文明/市场体系细分通用维度；详见 `industry-packs.md`）**。
+**已就位**：内置联网搜索 + 垂直检索路由；web.fetch 精读（含大陆 gov.cn 兜底）；Firecrawl 单页（Markdown/JSON，keyless 实测可用）；Exa 英文语义搜索、Jina 海外网页兜底、gh/RSS/V2EX 均已实测；国内外网络分流；生财有术 scys-mcp 搜读+AI 亦仁全管线（详见 `references/scys-mcp-guide.md`）；**多源群策群力机制（L3 深度决策，5 家 AI 实测，含渠道矩阵/差异化模板/浏览器执行要点/更新机制）**；**完整渠道目录（九大类 90+ 渠道，2026-10 多源验证）**；**策略选择层（四种决策模式 + S1-S11 可组合策略组件含 AI↔搜索迭代回路 + 十种 AI 协作模式 + 强需求渠道指定 + 常规需求默认策略 + 群策元决策）**；**行业包机制（已建 9 包全正式：主包 珠宝 v3 + 翡翠 v1，正式包 陶瓷 v1 + 家具 v1 + 书画 v1 + 腕表 v1 + 名酒 v1 + 沉香 v1 + 西洋古董 v1，含文明/市场体系细分通用维度；详见 `references/industry-packs.md`）**。
 
-**扩展位**（具备条件后启用，先在 `field-test-notes.md` 登记实测再使用）：Firecrawl key（Crawl/Map/批量 Extract/Monitor、MCP 接入）；中国土地市场网/公共资源交易中心/挂牌平台适配器；定时采集+快照 diff；社交 UGC 平台（小红书/Twitter/Reddit 读帖/公众号，启用前置与封号风险见 `field-test-notes.md` §待接入）；**行业包扩容（主包向远期目标迭代——珠宝 300 中+300 英+50 模板；新行业按通用四步法按需启用）**。
+**扩展位**（具备条件后启用，先在 `references/field-test-notes.md` 登记实测再使用）：Firecrawl key（Crawl/Map/批量 Extract/Monitor、MCP 接入）；中国土地市场网/公共资源交易中心/挂牌平台适配器；定时采集+快照 diff；社交 UGC 平台（小红书/Twitter/Reddit 读帖/公众号，启用前置与封号风险见 `references/field-test-notes.md` §待接入）；**行业包扩容（主包向远期目标迭代——珠宝 300 中+300 英+50 模板；新行业按通用四步法按需启用）**。
 
-> 新增任何取数能力，先写进 `channel-selection.md` 的通道表，再在流程中使用，保持单一权威清单。
+> 新增任何取数能力，先写进 `references/channel-selection.md` 的通道表，再在流程中使用，保持单一权威清单。
 
 ## OKF 知识层（采用声明 · okf-wiki v0.2 标准档）
 
